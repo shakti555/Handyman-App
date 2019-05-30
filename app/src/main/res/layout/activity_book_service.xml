@@ -1,0 +1,86 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#e9f8ff"
+
+
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40dp"
+        android:gravity="center"
+        android:textColor="#fcfffc"
+        android:textStyle="italic"
+        android:background="@drawable/newbc"
+        android:elevation="10dp"
+
+        android:text="Booking Section"
+        android:layout_marginBottom="100dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="20dp"
+
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:textColor="#4e4a4a"
+            android:textSize="18dp"
+            android:id="@+id/bhname"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:textSize="18dp"
+            android:textColor="#fff"
+            android:id="@+id/bhphone"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:textColor="#645c5c"
+            android:textSize="18dp"
+            android:id="@+id/bhwork"/>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Current Address"
+            android:textColor="#4d4747"
+            android:id="@+id/ccur_addr"
+            android:textSize="15dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Problem Description"
+            android:id="@+id/cprodis"
+            android:textColor="#fff"
+            android:textSize="15dp"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:gravity="center"
+        android:textSize="20dp"
+        android:padding="8dp"
+
+        android:text="Book"
+        android:textColor="#fff"
+        android:textStyle="italic"
+        android:layout_marginHorizontal="80dp"
+        android:background="@drawable/newbc"
+        android:onClick="bookhandyman"/>
+
+</LinearLayout>
